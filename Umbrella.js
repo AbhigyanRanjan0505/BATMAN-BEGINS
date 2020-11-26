@@ -5,7 +5,7 @@ class Umbrella {
             'friction': 0.1,
         }
         this.body = Bodies.circle(x, y, 65, options);
-        this.image = loadImage("../images/Walking Frame/walking_1.png");
+        this.image = loadImage("../BATMAN-BEGINS/images/Walking Frame/walking_1.png");
         World.add(world, this.body);
     }
     display() {
