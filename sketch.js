@@ -6,10 +6,10 @@ const Body = Matter.Body;
 var canvas, drop, lightI1, lightI2, lightI3, lightI4, light, man, drops = [], maxDrops = 100;
 
 function preload() {
-    lightI1 = loadImage("../images/thunderbolt/1.png");
-    lightI2 = loadImage("../images/thunderbolt/2.png");
-    lightI3 = loadImage("../images/thunderbolt/3.png");
-    lightI4 = loadImage("../images/thunderbolt/4.png");
+    lightI1 = loadImage("../BATMAN-BEGINS/images/thunderbolt/1.png");
+    lightI2 = loadImage("../BATMAN-BEGINS/images/thunderbolt/2.png");
+    lightI3 = loadImage("../BATMAN-BEGINS/images/thunderbolt/3.png");
+    lightI4 = loadImage("../BATMAN-BEGINS/images/thunderbolt/4.png");
 }
 
 function setup() {
